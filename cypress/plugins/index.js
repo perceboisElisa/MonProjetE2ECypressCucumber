@@ -12,6 +12,11 @@
 // the project's config changing)
 
 const cucumber = require('cypress-cucumber-preprocessor').default
+const {given} = require('cypress-cucumber-preprocessor');
+const {then} = require('cypress-cucumber-preprocessor');
+const {when} = require('cypress-cucumber-preprocessor');
+
+
 module.exports = (on, config) => {
   on('file:preprocessor', cucumber())
 }
