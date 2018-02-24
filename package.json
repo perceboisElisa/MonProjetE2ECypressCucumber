@@ -1,32 +1,13 @@
 {
-  "name": "cypress-cucumber-example",
+  "name": "cypress-cucumber",
   "version": "1.0.0",
-  "description": "Example of cypress with cucumber",
+  "description": "Cypress with cucumber",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:open": "./node_modules/.bin/cypress open",
+    "cypress:run:record": "./node_modules/.bin/cypress run --record --key 236b086f-6c42-4488-bd1f-a6586669807a"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheBrainFamily/cypress-cucumber-example.git"
-  },
-  "keywords": [
-    "cypress",
-    "cucumber",
-    "testing"
-  ],
-  "author": "Lukasz Gandecki",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TheBrainFamily/cypress-cucumber-example/issues"
-  },
-  "homepage": "https://github.com/TheBrainFamily/cypress-cucumber-example#readme",
-  "dependencies": {
-    "cypress": "^1.4.0",
-    "cypress-cucumber-preprocessor": "0.0.2"
-  },
-  "devDependencies": {
-    "cypress": "^2.0.3",
-    "cypress-cucumber-preprocessor": "0.0.2"
-  }
+  "author": "Elisa Percebois",
+  "dependencies": {},
+  "devDependencies": {}
 }
